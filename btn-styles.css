@@ -1,0 +1,289 @@
+/* ------ Button Primary ------ */
+.btn-primary,
+a.btn-primary:visited {
+	padding: 8px 10px;
+	background: #ffc600;
+  background-image: -webkit-linear-gradient(top, #ffc600, #ffb200);
+  background-image: -moz-linear-gradient(top, #ffc600, #ffb200);
+  background-image: -ms-linear-gradient(top, #ffc600, #ffb200);
+  background-image: -o-linear-gradient(top, #ffc600, #ffb200);
+  background-image: linear-gradient(to bottom, #ffc600, #ffb200);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 34px;
+  color: #373737;
+	font: 16px/34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+  text-decoration: none;
+	cursor: pointer;
+	-pie-background: linear-gradient(#ffc600,#ffb200);
+	behavior: url(main/css/pie/PIE.htc);
+}
+a.btn-primary:hover {
+  background: #fae062;
+  background-image: -webkit-linear-gradient(top, #fae062, #f8d44d);
+  background-image: -moz-linear-gradient(top, #fae062, #f8d44d);
+  background-image: -ms-linear-gradient(top, #fae062, #f8d44d);
+  background-image: -o-linear-gradient(top, #fae062, #f8d44d);
+  background-image: linear-gradient(to bottom, #fae062, #f8d44d);
+  -pie-background: linear-gradient(#fae062,#f8d44d);
+  behavior: url(main/css/pie/PIE.htc);
+}
+
+
+/* ------ Button Primary Outline ------ */
+.btn-primary-ol,
+a.btn-primary-ol:visited {
+	padding: 6px 10px;
+	border: 2px solid #ffb300;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 30px;
+	letter-spacing: 1px;
+	font: 16px/30px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ 	color: #373737;
+	text-align: center;
+  text-decoration: none;
+	cursor: pointer;
+}
+a.btn-primary-ol:hover {
+	background: #ffb300;
+}
+
+
+/* ------ Button Primary Selected ------ */
+.btn-primary.selected {
+	padding: 8px 10px;
+	background: #404040;
+  background-image: -webkit-linear-gradient(top, #404040, #323232);
+  background-image: -moz-linear-gradient(top, #404040, #323232);
+  background-image: -ms-linear-gradient(top, #404040, #323232);
+  background-image: -o-linear-gradient(top, #404040, #323232);
+  background-image: linear-gradient(to bottom, #404040, #323232);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 34px;
+	font: 16px/34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffcc00;
+	letter-spacing: 1px;
+	text-align: center;
+  text-decoration: none;
+	-pie-background: linear-gradient(#404040,#323232);
+	behavior: url(main/css/pie/PIE.htc);
+}
+
+
+/* ------ Button Secondary ------ */
+.btn-secondary,
+a.btn-secondary:visited {
+  padding: 8px 10px;
+	background: #1f2c9e;
+  background-image: -webkit-linear-gradient(top, #1f2c9e, #19227c);
+  background-image: -moz-linear-gradient(top, #1f2c9e, #19227c);
+  background-image: -ms-linear-gradient(top, #1f2c9e, #19227c);
+  background-image: -o-linear-gradient(top, #1f2c9e, #19227c);
+  background-image: linear-gradient(to bottom, #1f2c9e, #19227c);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 34px;
+	font: 16px/34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+	letter-spacing: 1px;
+	text-align: center;
+  text-decoration: none;
+	cursor: pointer;
+	-pie-background: linear-gradient(#1f2c9e,#19227c);
+	behavior: url(main/css/pie/PIE.htc);
+}
+a.btn-secondary:hover {
+	background: #356abf;
+  background-image: -webkit-linear-gradient(top, #356abf, #2954a9);
+  background-image: -moz-linear-gradient(top, #356abf, #2954a9);
+  background-image: -ms-linear-gradient(top, #356abf, #2954a9);
+  background-image: -o-linear-gradient(top, #356abf, #2954a9);
+  background-image: linear-gradient(to bottom, #356abf, #2954a9);
+  -pie-background: linear-gradient(#356abf,#2954a9);
+  behavior: url(main/css/pie/PIE.htc);
+}
+
+
+/* ------ Button Secondary Outline ------ */
+.btn-secondary-ol,
+a.btn-secondary-ol:visited {
+  padding: 6px 10px;
+	border: 2px solid #19237e;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 30px;
+	font: 16px/30px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #19237e;
+	letter-spacing: 1px;
+	text-align: center;
+  text-decoration: none;
+	cursor: pointer;
+}
+a.btn-secondary-ol:hover {
+  background: #19237e;
+	color: #ffffff;
+}
+
+
+/* ------ Button Secondary Selected ------ */
+.btn-secondary.selected {
+  padding: 8px 10px;
+	background: #7782b0;
+  background-image: -webkit-linear-gradient(top, #7782b0, #5e6794);
+  background-image: -moz-linear-gradient(top, #7782b0, #5e6794);
+  background-image: -ms-linear-gradient(top, #7782b0, #5e6794);
+  background-image: -o-linear-gradient(top, #7782b0, #5e6794);
+  background-image: linear-gradient(to bottom, #7782b0, #5e6794);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 34px;
+	font: 16px/34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+	letter-spacing: 1px;
+	text-align: center;
+  text-decoration: none;
+	-pie-background: linear-gradient(#7782b0,#5e6794);
+	behavior: url(main/css/pie/PIE.htc);
+}
+
+
+/* ------ Button Inactive ------ */
+.btn-inactive,
+a.btn-inactive:visited {
+  padding: 8px 10px;
+	background: #ebe8e4;
+  background-image: -webkit-linear-gradient(top, #ebe8e4, #dddfda);
+  background-image: -moz-linear-gradient(top, #ebe8e4, #dddfda);
+  background-image: -ms-linear-gradient(top, #ebe8e4, #dddfda);
+  background-image: -o-linear-gradient(top, #ebe8e4, #dddfda);
+  background-image: linear-gradient(to bottom, #ebe8e4, #dddfda);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 34px;
+  color: #737373;
+	font: 16px/34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+  text-decoration: none;
+	cursor: pointer;
+	-pie-background: linear-gradient(#ebe8e4,#dddfda);
+	behavior: url(main/css/pie/PIE.htc);
+}
+
+
+/* ------ Button Alert ------ */
+.btn-alert,
+a.btn-alert:visited {
+  padding: 8px 10px;
+	background: #eb1414;
+  background-image: -webkit-linear-gradient(top, #eb1414, #e31515);
+  background-image: -moz-linear-gradient(top, #eb1414, #e31515);
+  background-image: -ms-linear-gradient(top, #eb1414, #e31515);
+  background-image: -o-linear-gradient(top, #eb1414, #e31515);
+  background-image: linear-gradient(to bottom, #eb1414, #e31515);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 34px;
+  color: #ffffff;
+  font: 16px/34px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+  text-decoration: none;
+	cursor: pointer;
+	-pie-background: linear-gradient(#eb1414,#e31515);
+	behavior: url(main/css/pie/PIE.htc);
+}
+
+
+
+/* ------ Button Alert Outline ------ */
+.btn-alert-ol,
+a.btn-alert-ol:visited {
+  padding: 6px 10px;
+	border: 2px solid #eb1414;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px #bfbfbf;
+  -moz-box-shadow: 1px 1px 1px #bfbfbf;
+  box-shadow: 1px 1px 1px #bfbfbf;
+	height: 30px;
+  font: 16px/30px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #eb1414;
+	letter-spacing: 1px;
+	text-align: center;
+  text-decoration: none;
+	cursor: pointer;
+}
+a.btn-alert-ol:hover {
+	background: #eb1414;
+	color: #ffffff;
+}
+
+
+/* Page Styles - DO NOT USE THE BELOW STYLES IN YOUR BUILD - they are just for the buttons display page style guide */
+
+header, main {
+	margin-bottom: 60px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+	margin: 40px 0;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+h3 {
+	margin-bottom: 10px;
+}
+
+p {
+	margin: 0 0 15px 0;
+}
+header p {
+	line-height: 1.4;
+}
+body {
+	background: #eeeeee;
+}
